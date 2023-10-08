@@ -27,9 +27,9 @@ select *
   join sub2 
     on sub1.city = sub2.city;
 
-/* Select city in brach table */
+/* Select city in branch table */
 select 
-  (select city ) from branch;
+  (select city) from branch;
 
 /* Show promo coloumn */
 select * from promo;
